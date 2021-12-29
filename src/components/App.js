@@ -1,11 +1,14 @@
 import Banner from './Banner'
+import ShoppingList from "./ShoppingList";
 
-import Cart from './Cart'
+//import Cart from './Cart'
 function App() {
 
     return (<div>
         <Banner/>
-        <Cart/>
+
+            {/* <Cart /> */}
+            <ShoppingList></ShoppingList>
     </div>
     )
 }
